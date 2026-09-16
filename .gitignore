@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+.venv/
+.venv-release/
+
+# Test/cache
+.pytest_cache/
+.pytest_temp/
+.ruff_cache/
+temp_run_*/
+temp*_pytest_dir/
+temp_test/
+
+# Build
+build/
+dist/
+TraductorPDF/
+
+# Release artifacts
+TraductorPDF-*-windows-x64.zip
+SHA256SUMS.txt
+MANIFEST.txt
+
+# Logs
+*.log
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+
+# Runtime DB
+*.db-wal
+*.db-shm
+
+# Fixtures exceptions
+!tests/fixtures/**/*.pdf
+!tests/fixtures/**/*.png
+!tests/fixtures/**/*.xml
+!tests/fixtures/**/*.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
